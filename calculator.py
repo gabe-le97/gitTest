@@ -2,10 +2,13 @@ def add(num1, num2):
 	return num1+num2
 
 def subtract(num1, num2):
-    return num1 + num2
+	return num1 + num2
+
+def multiplication(num1, num2):
+	return num1*num2
 
 def printf(format, *values):
-    print(format % values )
+	print(format % values )
 
 def checkInput(num):
 	while(True):
@@ -27,8 +30,8 @@ def main():
 		if(choice == 1):
 			print('Addition')
 			print(add(num1, num2))
-        elif(choice == 2):
-            print(subtract(num1, num2))
+		elif(choice == 2):
+			print(subtract(num1, num2))
 		else:
 			print('Please enter a valid choice')
 
