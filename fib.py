@@ -1,5 +1,12 @@
 def fib(n):
-    left = 0
-    right = 1
-    whi
-    left, right = right, left+right
+    if n <= 1:
+        return n
+    else:
+        return fib(n-1) + fib(n-2)
+
+
+
+def main():
+    num = 5
+    print("I am going to calculate the fibonacci series")
+    print(fib(num))
