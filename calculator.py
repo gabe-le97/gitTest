@@ -13,6 +13,9 @@ def printf(format, *values):
 def division(num1, num2):
 	return num1/num2
 
+def modulus(num1, num2):
+	return num1%num2
+
 def checkInput(num):
 	while(True):
 		try:
@@ -42,6 +45,9 @@ def main():
 		elif(choice == 4):
 			print("multiplication")
 			print(multiplication(num1, num2))
+		elif(choice == 5):
+			print("Modulus")
+			print(modulus(num1, num2))
 		else:
 			print('Goodbye')
 			exit(0)
