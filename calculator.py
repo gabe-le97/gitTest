@@ -16,6 +16,9 @@ def division(num1, num2):
 def modulus(num1, num2):
 	return num1%num2
 
+def rectangle(num1, num2):
+	return (num1*num1*num2*num2)
+
 def checkInput(num):
 	while(True):
 		try:
